@@ -55,7 +55,7 @@
                 </div>
             </div>
 
-            <div class="grid grid-cols-3 gap-8 mt-8">
+            <div class="grid md:grid-cols-3 gap-8 mt-8">
                 <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
                     <h2 class="text-2xl font-bold">Prefix & Content Translation</h2>
                     <p class="text-base">Alter all types of Sender IDs and Message Content to deal with any regulations specified by any Vendor or Mobile Operator worldwide</p>
