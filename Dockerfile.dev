@@ -1,0 +1,14 @@
+FROM node:22-alpine
+
+WORKDIR /frontend-montyhub
+
+COPY package.json .
+COPY package-lock.json .
+
+RUN npm install
+
+COPY . .
+
+EXPOSE 3000
+
+CMD rm -f /tmp/nitro/worker-*.sock && npm run dev
