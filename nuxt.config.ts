@@ -12,43 +12,43 @@ export default defineNuxtConfig({
 			htmlAttrs: {
 				lang: "en",
 			},
-			link: [
-				{
-					rel: "icon",
-					type: "image/png",
-					href: "https://eaula.vercel.app/images/favicon-64x64.png",
-				},
-				{
-					rel: "icon",
-					type: "image/png",
-					href: "https://eaula.vercel.app/images/favicon-32x32.png",
-				},
-				{
-					rel: "icon",
-					type: "image/png",
-					href: "https://eaula.vercel.app/images/favicon-16x16.png",
-				},
-				{
-					rel: "apple-touch-icon",
-					type: "image/png",
-					href: "https://eaula.vercel.app/images/apple-touch-icon-180x180.png",
-				},
-				{
-					rel: "mask-icon",
-					href: "https://eaula.vercel.app/images/icons/mask-icon.svg",
-					color: "#32393C",
-				},
-				{
-					rel: "icon",
-					sizes: "192x192",
-					href: "https://eaula.vercel.app/images/android-chrome-192x192.png",
-				},
-				{
-					rel: "icon",
-					sizes: "512x512",
-					href: "https://eaula.vercel.app/images/android-chrome-512x512.png",
-				},
-			],
+			// link: [
+			// 	{
+			// 		rel: "icon",
+			// 		type: "image/png",
+			// 		href: "https://eaula.vercel.app/images/favicon-64x64.png",
+			// 	},
+			// 	{
+			// 		rel: "icon",
+			// 		type: "image/png",
+			// 		href: "https://eaula.vercel.app/images/favicon-32x32.png",
+			// 	},
+			// 	{
+			// 		rel: "icon",
+			// 		type: "image/png",
+			// 		href: "https://eaula.vercel.app/images/favicon-16x16.png",
+			// 	},
+			// 	{
+			// 		rel: "apple-touch-icon",
+			// 		type: "image/png",
+			// 		href: "https://eaula.vercel.app/images/apple-touch-icon-180x180.png",
+			// 	},
+			// 	{
+			// 		rel: "mask-icon",
+			// 		href: "https://eaula.vercel.app/images/icons/mask-icon.svg",
+			// 		color: "#32393C",
+			// 	},
+			// 	{
+			// 		rel: "icon",
+			// 		sizes: "192x192",
+			// 		href: "https://eaula.vercel.app/images/android-chrome-192x192.png",
+			// 	},
+			// 	{
+			// 		rel: "icon",
+			// 		sizes: "512x512",
+			// 		href: "https://eaula.vercel.app/images/android-chrome-512x512.png",
+			// 	},
+			// ],
 			meta: [
 				{ name: "theme-color", content: "#AEB4BD" },
 				{ name: "format-detection", content: "telephone=no" },

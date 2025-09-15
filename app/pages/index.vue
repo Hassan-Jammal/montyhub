@@ -59,18 +59,18 @@
                 <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
                     <h2 class="text-2xl font-bold">Prefix & Content Translation</h2>
                     <p class="text-base">Alter all types of Sender IDs and Message Content to deal with any regulations specified by any Vendor or Mobile Operator worldwide</p>
-                    <NuxtImg src="images/multi-currency.png" class="mt-auto w-full" loading="lazy" alt="Multicurrency" width="1124" height="602" />
+                    <NuxtImg src="images/prefix-and-content-translation.png" class="mt-auto w-full" loading="lazy" alt="Prefix & Content Transla" width="1124" height="602" />
 
                 </div>
                 <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
                     <h2 class="text-2xl font-bold">Automated Cost Importation</h2>
                     <p class="text-base">Cost sheets sent by vendors can be automatically detected, mapped and imported to the system without any human intervention</p>
-                    <NuxtImg src="images/dnd-mode.png" class="mt-auto w-full" loading="lazy" alt="Multicurrency" width="110" height="564" />
+                    <NuxtImg src="images/automated-cost-importation.png" class="mt-auto w-full" loading="lazy" alt="automated-cost-importation" width="110" height="564" />
                 </div>
                 <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
                     <h2 class="text-2xl font-bold">Live Monitor & Gateway Monitor</h2>
                     <p class="text-base">Users can monitor their SMS traffic from the Live Monitor, connection status and all details directly from the Gateway Monitor</p>
-                    <NuxtImg src="images/dnd-mode.png" class="mt-auto w-full" loading="lazy" alt="Multicurrency" width="110" height="564" />
+                    <NuxtImg src="images/live-monitor-and-gateway-monitor.png" class="mt-auto w-full" loading="lazy" alt="live-monitor-and-gateway-monitor" width="110" height="564" />
                 </div>
             </div>
         </div>
