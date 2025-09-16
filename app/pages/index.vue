@@ -22,7 +22,7 @@
             <div class="wrapper grid grid-flow-col auto-cols-[8rem] lg:auto-cols-[20rem] justify-items-center items-center mt-10 animate-[marquee_20s_linear_infinite] lg:animate-[marqueelg_20s_linear_infinite]">
                 <template v-for="(marquee, index) in duplicatedMarqueeList" :key="index">
                     <!-- <a :href="marquee.link" target="_blank"> -->
-                        <NuxtImg class="marquee-item max-lg:w-2/3 " :src="`images/${marquee.image}.webp`" :alt="marquee.alt" :width="marquee.width" :height="marquee.height" />
+                        <NuxtImg class="marquee-item max-lg:w-2/3 " :src="`images/${marquee.image}.svg`" :alt="marquee.alt" :width="marquee.width" :height="marquee.height" />
                     <!-- </a> -->
                 </template>
             </div>
