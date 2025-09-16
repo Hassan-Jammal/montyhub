@@ -9,8 +9,8 @@ export function useScrollToSection() {
 
         const targetElement = document.querySelector(`#${sectionIdOrClass}, .${sectionIdOrClass}`);
         if (targetElement) {
-            const y = targetElement.getBoundingClientRect().top + window.scrollY + headerHeight;
-    
+            const y = targetElement.getBoundingClientRect().top + window.scrollY;
+
             window.scrollTo({
                 top: y,
                 behavior: 'smooth',

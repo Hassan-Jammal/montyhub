@@ -2,7 +2,7 @@
     <nav class="hidden lg:block">
         <ul class="flex justify-between items-center gap-8">
             <li v-for="(item, index) in menuItems" :key="index" class="relative flex justify-between items-center gap-2">
-                <span class="transition-all duration-300 ease-in-out font-bold">{{ item.title }}</span>
+                <ScrollButton :target="item.id" class="transition-all duration-300 ease-in-out font-bold cursor-pointer">{{ item.title }}</ScrollButton>
             </li>
         </ul>
     </nav>

@@ -4,7 +4,7 @@
         <div class="container relative h-full pb-48 overflow-y-scroll">
             <ul class="flex flex-col pt-6 divide-y divide-[#E5E5E5]">
                 <li v-for="(item, itemIndex) in menuItems" :key="itemIndex" class="py-6">
-                    <span class="flex justify-between items-center"><NuxtLink :to="`/${item.path}`" class="text-xl font-bold link">{{ item.title }}</NuxtLink></span>
+                    <ScrollButton :target="item.id" class="flex justify-between items-center text-xl font-bold link">{{ item.title }}</ScrollButton>
                 </li>
             </ul>
         </div>
