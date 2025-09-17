@@ -212,8 +212,8 @@
                     <p class="text-base">Ensuring uninterrupted operations and service continuity.</p>
                 </div>
                 <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl bg-[#223140]">
-                    <NuxtImg src="images/high-throuput.svg" loading="lazy" alt="High Throuput" width="56" height="56" />
-                    <h2 class="text-2xl text-balance font-bold">High Throuput</h2>
+                    <NuxtImg src="images/high-throughput.svg" loading="lazy" alt="High Throughput" width="56" height="56" />
+                    <h2 class="text-2xl text-balance font-bold">High Throughput</h2>
                     <p class="text-base">Handle massive SMS volumes with carrier-grade speed.</p>
                 </div>
                 <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl bg-[#223140]">
