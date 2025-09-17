@@ -35,8 +35,8 @@
     <section id="features" class="my-6 py-6">
         <div class="container">
             <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
-                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(94,173,255,1)_100%)] text-2xl text-[#003294] font-bold">FEATURES</h2>
-                <h3 class="text-3xl md:text-6xl font-bold text-balance">Features and benefits of A2P SMS</h3>
+                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(94,173,255,1)_100%)] text-base text-[#003294] font-bold">FEATURES</h2>
+                <h3 class="text-3xl md:text-5xl font-bold text-balance">Features and benefits of A2P SMS</h3>
                 <p class="text-xl md:text-2xl leading-normal">B'PAL is a robust Business Support Solution developed by MontyMobile. It offers a unified and comprehensive management platform for SMS Interconnect Services.</p>
             </div>
             <NuxtImg src="images/features-and-benefits-of-a2p-sms.png" class="mt-12 w-full" loading="lazy" alt="Features and benefits of A2P SMS" width="2494" height="965" />
@@ -96,8 +96,8 @@
     <section id="why-us" class="my-6 py-6">
         <div class="container">
             <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
-                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(94,173,255,1)_100%)] text-2xl text-[#003294] font-bold">WHY US?</h2>
-                <h3 class="text-3xl md:text-6xl font-bold text-balance">Comprehensive and Unified Platform for SMS Business Management</h3>
+                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(94,173,255,1)_100%)] text-base text-[#003294] font-bold">WHY US?</h2>
+                <h3 class="text-3xl md:text-5xl font-bold text-balance">Comprehensive and Unified Platform for SMS Business Management</h3>
                 <p class="text-xl md:text-2xl leading-normal">Presents a complete suite for billing, rate and policy management, deal and dispute management, order management and automation of the SMS business processes.</p>
                 <p class="flex items-center gap-2 text-sm text-primary font-bold mt-6">Learn more about our features 
                     <Icon name="line-md:arrow-right" class="text-lg" />
@@ -158,7 +158,7 @@
         <div class="container">
             <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
                 <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(202,240,248,1)_100%)] text-2xl text-[#423200] font-bold">ARCHITECTURE</h2>
-                <h3 class="text-3xl md:text-6xl font-bold text-balance">A single, powerful, easy-to-use platform</h3>
+                <h3 class="text-3xl md:text-5xl font-bold text-balance">A single, powerful, easy-to-use platform</h3>
                 <p class="text-xl md:text-2xl leading-normal">An intelligent, modular architecture designed to unify billing, policy, order, and dispute management while automating every layer of the SMS business process.</p>
                 <p class="flex items-center gap-2 text-sm font-bold mt-6">Learn more about the Intercom Platform 
                     <Icon name="line-md:arrow-right" class="text-lg" />
