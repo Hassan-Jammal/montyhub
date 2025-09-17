@@ -157,7 +157,7 @@
     <section id="architecture" class="relative my-12 py-12 md:py-48 text-white bg-[#041527]">
         <div class="container">
             <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
-                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(202,240,248,1)_100%)] text-2xl text-[#423200] font-bold">ARCHITECTURE</h2>
+                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(202,240,248,1)_100%)] text-base text-[#423200] font-bold">ARCHITECTURE</h2>
                 <h3 class="text-3xl md:text-5xl font-bold text-balance">A single, powerful, easy-to-use platform</h3>
                 <p class="text-xl md:text-2xl leading-normal">An intelligent, modular architecture designed to unify billing, policy, order, and dispute management while automating every layer of the SMS business process.</p>
                 <p class="flex items-center gap-2 text-sm font-bold mt-6">Learn more about the Intercom Platform 
