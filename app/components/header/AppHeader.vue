@@ -1,5 +1,5 @@
 <template>
-    <header id="header" class="flex flex-col justify-center items-center h-[var(--header-height)] fixed top-0 left-0 w-full text-sm transition-transform duration-300 ease-in-out bg-white z-50" :class="{ '-translate-y-full': isScrolledDown, 'translate-y-0': isNavOpen }">
+    <header id="header" class="flex flex-col justify-center items-center h-[var(--header-height)] fixed top-0 left-0 w-full bg-primary text-white text-sm transition-transform duration-300 ease-in-out z-50" :class="{ '-translate-y-full': isScrolledDown, 'translate-y-0': isNavOpen }">
         <div class="container flex justify-between items-center">
             <!-- Logo -->
             <NuxtLink :to="`/`">

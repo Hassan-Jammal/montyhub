@@ -11,4 +11,4 @@ COPY . .
 
 EXPOSE 3000
 
-CMD rm -f /tmp/nitro/worker-*.sock && npm run dev
+CMD npm run dev

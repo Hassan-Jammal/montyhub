@@ -1,20 +1,20 @@
 <template>
-    <section class="pt-20 md:pt-44 pb-14 bg-[#041527]">
+    <section class="pt-20 md:pt-44 bg-[#041527]">
         <div class="container">
-            <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
-                <h1 class="text-3xl md:text-6xl font-bold text-balance text-[#D3D5D8]">Enterprise High Grade Messaging Software</h1>
-                <p class="text-2xl text-[#D3D5D8]">Enhanced A2P SMS Business. High Availability. High Throughput</p>
+            <div class="relative flex flex-col justify-center items-center gap-8 md:w-23 mx-auto text-center z-10">
+                <h1 class="text-3xl md:text-7xl font-bold text-balance text-[#D3D5D8]">Enterprise High <br /> Grade Messaging Software</h1>
+                <p class="text-xl text-[#D3D5D8]">Enhanced A2P SMS Business. High Availability. High Throughput</p>
                 <div class="flex justify-center items-center gap-4">
-                    <button class="flex items-center font-bold gap-2 py-4 px-6 min-w-[120px] bg-primary border-2 border-primary text-sm text-white rounded-full select-none transition-all duration-300 ease-in-out">Start Free Trial
+                    <button class="flex items-center font-bold gap-2 py-4 px-6 md:px-10 min-w-[120px] text-nowrap bg-secondary hover:bg-transparent border-2 border-secondary hover:border-white text-sm hover:text-white rounded-md select-none transition-all duration-300 ease-in-out">Contact us
                         <Icon name="line-md:arrow-right" class="text-lg" />
                     </button>
-                    <button class="flex items-center font-bold gap-2 py-4 px-6 min-w-[120px] bg-transparent border-2 border-white text-sm text-white rounded-full select-none transition-all duration-300 ease-in-out">View demo
+                    <button class="flex items-center font-bold gap-2 py-4 px-6 md:px-10 min-w-[120px] text-nowrap bg-transparent hover:bg-secondary border-2 border-white hover:border-secondary text-sm text-white hover:text-black rounded-md select-none transition-all duration-300 ease-in-out">View demo
                         <Icon name="line-md:arrow-right" class="text-lg" />
                     </button>
                 </div>
             </div>
-            <NuxtImg src="images/homepage-banner.png" class="mt-12 w-full" loading="lazy" alt="Homepage Banner" width="2551" height="1337" />
         </div>
+        <NuxtImg src="images/homepage-banner.png" class="-translate-y-16 w-full" loading="lazy" alt="Homepage Banner" width="2551" height="1337" />
     </section>
 
     <section class="relative pt-6 pb-32 md:pb-72 bg-[#041527]">
@@ -32,123 +32,115 @@
         </div>
     </section>
     
-    <section id="features" class="my-6 py-6">
+    <section  class="my-6 py-6">
+        <div class="container">
+            <div class="flex flex-col justify-center items-center gap-8 md:w-4/5 mx-auto text-center">
+                <h3 class="text-3xl md:text-5xl font-bold">B'PAL is a robust Business Support Solution developed by MontyMobile.<br /><br />It offers a unified and comprehensive management platform for <span class="text-secondary">SMS Interconnect Services</span>.</h3>
+            </div>
+
+            <div class="flex flex-col gap-12 p-4 md:p-12 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)] mt-8">
+                <p class="text-[#66696D] text-lg">Our Dashboard and monitoring system offer a unified view of all operational metrics and activities. It enables real-time monitoring of SMS traffic, interconnect performance, and financial transactions, offering powerful analytics and intuitive reports for effective </p>
+                <NuxtImg src="images/dashboard.png" class="w-full" loading="lazy" alt="Dashboard" width="2163" height="585" />
+            </div>
+        </div>
+    </section>
+
+    <section id="features" class="my-12 py-12">
         <div class="container">
             <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
-                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(94,173,255,1)_100%)] text-base text-[#003294] font-bold">FEATURES</h2>
-                <h3 class="text-3xl md:text-5xl font-bold text-balance">Features and benefits of A2P SMS</h3>
-                <p class="text-xl md:text-2xl leading-normal">B'PAL is a robust Business Support Solution developed by MontyMobile. It offers a unified and comprehensive management platform for SMS Interconnect Services.</p>
+                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[#0096ED26] text-base text-secondary font-bold uppercase">Monty Hub Features</h2>
+                <h3 class="text-3xl md:text-5xl font-bold text-balance">Monty Hub Features</h3>
             </div>
-            <NuxtImg src="images/features-and-benefits-of-a2p-sms.png" class="mt-12 w-full" loading="lazy" alt="Features and benefits of A2P SMS" width="2494" height="965" />
 
             <div class="grid md:grid-cols-2 gap-8 mt-8">
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Multi-Currency</h2>
-                    <p class="text-base">B'PAL is a robust Business Support Solution developed by MontyMobile. It offers a unified and comprehensive management platform for SMS Interconnect Services.</p>
-                    <NuxtImg src="images/multi-currency.png" class="mt-auto w-full" loading="lazy" alt="Multicurrency" width="1124" height="602" />
-
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">DND Mode</h2>
-                    <p class="text-base">Saves consumers from spontaneous SMS & blocks any undesired SMS</p>
-                    <NuxtImg src="images/dnd-mode.png" class="mt-auto w-full" loading="lazy" alt="Multicurrency" width="110" height="564" />
-                </div>
-            </div>
-
-            <div class="grid md:grid-cols-3 gap-8 mt-8">
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Prefix & Content Translation</h2>
-                    <p class="text-base">Alter all types of Sender IDs and Message Content to deal with any regulations specified by any Vendor or Mobile Operator worldwide</p>
-                    <NuxtImg src="images/prefix-and-content-translation.png" class="mt-auto w-full" loading="lazy" alt="Prefix & Content Transla" width="1124" height="602" />
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Automated Cost Importation</h2>
-                    <p class="text-base">Cost sheets sent by vendors can be automatically detected, mapped and imported to the system without any human intervention</p>
-                    <NuxtImg src="images/automated-cost-importation.png" class="mt-auto w-full" loading="lazy" alt="automated-cost-importation" width="110" height="564" />
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Live Monitor & Gateway Monitor</h2>
-                    <p class="text-base">Users can monitor their SMS traffic from the Live Monitor, connection status and all details directly from the Gateway Monitor</p>
-                    <NuxtImg src="images/live-monitor-and-gateway-monitor.png" class="mt-auto w-full" loading="lazy" alt="live-monitor-and-gateway-monitor" width="110" height="564" />
-                </div>
-            </div>
-        </div>
-    </section>
-    
-    <section class="my-6 py-6 md:my-24 md:py-24">
-        <div class="container">
-            <div class="md:w-2/3 mx-auto flex flex-col items-center gap-14 text-center">
-                <NuxtImg src="images/zilch.svg" loading="lazy" alt="Zilch" width="105" height="45" />
-                <h3 class="text-2xl md:text-4xl text-balance leading-normal">“Our bot deflection rate with our previous customer service solution was 5-10%. With Intercom, we achieved <span class="font-bold">65% bot deflection within just one week</span> of going live.“</h3>
-                <div class="flex justify-center gap-8 md:gap-14">
-                    <div class="shrink-0 w-24">
-                        <NuxtImg src="images/stuart-sykes.png" loading="lazy" alt="Stuart Sykes" width="178" height="177" />
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl shadow-[0_0_0_4px_#F3F4F7,0_0_0_3.5px_#F9F9FB,0_0_0_1px_#E4E5E999,0_0_0_0.5px_#E4E5E9] bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Multi-Currency</h2>
+                        <p class="text-[#66696D] text-lg mt-4">B'PAL supports multi-currency, users can configure to any currency.</p>
                     </div>
-                    <div class="flex flex-col items-start gap-2">
-                        <p class="text-lg md:text-2xl font-bold">Stuart Sykes</p>
-                        <p class="text-lg md:text-2xl text-left">VP of Service Operations, Zilch</p>
+                    <NuxtImg src="images/multi-currency.png" class="w-full mt-auto" loading="lazy" alt="Multicurrency" width="966" height="504" />
+                </div>
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl shadow-[0_0_0_4px_#F3F4F7,0_0_0_3.5px_#F9F9FB,0_0_0_1px_#E4E5E999,0_0_0_0.5px_#E4E5E9] bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">DND Mode</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Saves consumers from spontaneous SMS and blocks any undesired SMS</p>
                     </div>
+                    <NuxtImg src="images/dnd-mode.png" class="w-full mt-auto" loading="lazy" alt="DND Mode" width="966" height="504" />
+                </div> 
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl shadow-[0_0_0_4px_#F3F4F7,0_0_0_3.5px_#F9F9FB,0_0_0_1px_#E4E5E999,0_0_0_0.5px_#E4E5E9] bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Repricing</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Ability to recalculate the CDR charges if a wrong Rate, Cost, Transit Cost, Transit Rate, MNP Cost, Exchange Rate was wrongly set on live traffic</p>
+                    </div>
+                    <NuxtImg src="images/repricing.png" class="w-full mt-auto" loading="lazy" alt="Repricing" width="966" height="504" />
+                </div> 
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl shadow-[0_0_0_4px_#F3F4F7,0_0_0_3.5px_#F9F9FB,0_0_0_1px_#E4E5E999,0_0_0_0.5px_#E4E5E9] bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Prefix & Content Translation</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Alter all types of Sender IDs and Message Content to deal with any regulations specified by any Vendor or Mobile Operator worldwide</p>
+                    </div>
+                    <NuxtImg src="images/prefix-and-content-translation.png" class="w-full mt-auto" loading="lazy" alt="Prefix & Content Translation" width="966" height="504" />
+                </div> 
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl shadow-[0_0_0_4px_#F3F4F7,0_0_0_3.5px_#F9F9FB,0_0_0_1px_#E4E5E999,0_0_0_0.5px_#E4E5E9] bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Automated Cost Importation</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Cost sheets sent by vendors can be automatically detected, mapped and imported to the system without any human intervention</p>
+                    </div>
+                    <NuxtImg src="images/automated-cost-importation.png" class="w-full mt-auto" loading="lazy" alt="Automated Cost Importation" width="966" height="504" />
+                </div> 
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl shadow-[0_0_0_4px_#F3F4F7,0_0_0_3.5px_#F9F9FB,0_0_0_1px_#E4E5E999,0_0_0_0.5px_#E4E5E9] bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Live Monitor & Gateway Monitor</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Users can monitor their SMS traffic from the Live Monitor, connection status and all details directly from the Gateway Monitor</p>
+                    </div>
+                    <NuxtImg src="images/live-monitor-and-gateway-monitor.png" class="w-full mt-auto" loading="lazy" alt="Live Monitor & Gateway Monitor" width="966" height="504" />
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="why-us" class="my-6 py-6">
+    <section id="why-us" class="my-12 py-12">
         <div class="container">
             <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
-                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(94,173,255,1)_100%)] text-base text-[#003294] font-bold">WHY US?</h2>
+                <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[#0096ED26] text-base text-secondary font-bold uppercase">Why Choose Us?</h2>
                 <h3 class="text-3xl md:text-5xl font-bold text-balance">Comprehensive and Unified Platform for SMS Business Management</h3>
-                <p class="text-xl md:text-2xl leading-normal">Presents a complete suite for billing, rate and policy management, deal and dispute management, order management and automation of the SMS business processes.</p>
-                <p class="flex items-center gap-2 text-sm text-primary font-bold mt-6">Learn more about our features 
-                    <Icon name="line-md:arrow-right" class="text-lg" />
-                </p>
+                <p class="text-[#66696D] text-lg mt-4">Presents a complete suite for billing, rate and policy management, deal and dispute management, order management and automation of the SMS business processes.</p>
             </div>
 
-            <div class="grid md:grid-cols-2 gap-8 mt-12">
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Independent Platform</h2>
-                    <p class="text-base">Our Messaging Portals work efficiently while saving costs on the network of your choice, you can choose between Windows or Open Linux OS.</p>
-                    <NuxtImg src="images/independent-platform.png" class="mt-auto w-full" loading="lazy" alt="Independent Platform" width="1146" height="575" />
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Advanced Billing</h2>
-                    <p class="text-base">Our advanced billing module handles the whole process of the billing system from the beginning to the end such as:</p>
-                    <ul class="list-disc list-inside pl-4 font-bold">
-                        <li>Generate Invoices</li>
-                        <li>Automated Invoices</li>
-                        <li>Notes</li>
-                        <li>Payments</li>
-                    </ul>
-                    <NuxtImg src="images/advanced-billing.png" class="mt-auto w-full" loading="lazy" alt="Advanced Billing" width="930" height="582" />
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Advanced Routing</h2>
-                    <p class="text-base">Advanced Routing allows you to create new routes, manage existing ones easily, apply different actions to routes, and have the opportunity to Sub-Route. Not to mention the ability for the system to automatically switch or blend vendors, and block routes based on specific rules and conditions.</p>
-                    <NuxtImg src="images/advanced-routing.png" class="mt-auto w-full" loading="lazy" alt="Advanced Routing" width="830" height="492" />
-
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(243,249,255,1)_0%,rgba(196,224,253,1)_100%)]">
-                    <h2 class="text-2xl text-balance font-bold">Monitoring & Reporting</h2>
-                    <p class="text-base">B'PAL allows you to monitor Live Traffic which includes detailed traffic statistics and traffic behavior. No matter how large the amount is, users can view their traffic in an instant matter with an easy-to-read analytical interface, or view a report of their traffic based on their criteria set.</p>
-                    <NuxtImg src="images/monitoring-and-reporting.png" class="mt-auto w-full" loading="lazy" alt="Monitoring & Reporting" width="821" height="492" />
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="my-6 py-6 md:my-24 md:py-24">
-        <div class="container">
-            <div class="md:w-2/3 md:mx-auto flex flex-col items-center gap-14 text-center">
-                <NuxtImg src="images/true-commerce.svg" loading="lazy" alt="TrueCommerce" width="156" height="25" />
-                <h3 class="text-2xl md:text-4xl text-balance leading-normal">“Self-service and proactive support have helped us <span class="font-bold">reduce inbound conversation volume by 20%</span>  over the past two years, even as our user base has continued to grow.“</h3>
-                <div class="flex justify-center gap-8 md:gap-14">
-                    <div class="shrink-0 w-24">
-                        <NuxtImg src="images/christian-parker.png" loading="lazy" alt="Christian Parker" width="178" height="177" />
+            <div class="grid md:grid-cols-2 gap-8 mt-8">
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Independent Platform</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Our Messaging Portals operate efficiently and cost-effectively on the network of your choice, running seamlessly on open Linux OS.</p>
                     </div>
-                    <div class="flex flex-col items-start gap-2">
-                        <p class="text-lg md:text-2xl font-bold">Christian Parker</p>
-                        <p class="text-lg md:text-2xl text-left">Director of Managed Services, <br /> TrueCommerce</p>
+                    <NuxtImg src="images/independent-platform.png" class="w-full mt-auto" loading="lazy" alt="Independent Platform" width="966" height="504" />
+                </div>
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Advanced Billing</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Our advanced billing module handles the whole process of the billing system from the beginning to the end such as:</p>
+                        <ul class="list-disc px-4 md:columns-2 text-[#66696D]">
+                            <li>Generate Invoices</li>
+                            <li>Automated Invoices</li>
+                            <li>Notes</li>
+                            <li>Payments</li>
+                        </ul>
                     </div>
+                    <NuxtImg src="images/advanced-billing.png" class="w-full mt-auto" loading="lazy" alt="Advanced Billing" width="966" height="504" />
+                </div>
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Secure Access Management</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Allows you to create and manage routes with ease, including Sub-Routes. Automatically switch or blend vendors, and block routes based on custom rules and conditions.</p>
+                    </div>
+                    <NuxtImg src="images/secure-access-management.png" class="w-full mt-auto" loading="lazy" alt="Secure Access Management" width="966" height="504" />
+                </div>
+                <div class="flex flex-col gap-12 p-4 md:p-8 pb-0 md:pb-0 border border-[#d3d5d8] rounded-xl bg-[linear-gradient(180deg,rgba(252,252,252,1)_0%,rgba(217,239,252,1)_100%)]">
+                    <div>
+                        <h2 class="text-xl text-balance font-bold">Monitoring & Reporting</h2>
+                        <p class="text-[#66696D] text-lg mt-4">Monty Hub lets you monitor live traffic with detailed stats and insights. Instantly view traffic through an intuitive interface or generate reports based on your chosen criteria.</p>
+                    </div>
+                    <NuxtImg src="images/monitoring-and-reporting.png" class="w-full mt-auto" loading="lazy" alt="Monitoring & Reporting" width="966" height="504" />
                 </div>
             </div>
         </div>
@@ -160,98 +152,108 @@
                 <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(202,240,248,1)_100%)] text-base text-[#423200] font-bold">ARCHITECTURE</h2>
                 <h3 class="text-3xl md:text-5xl font-bold text-balance">A single, powerful, easy-to-use platform</h3>
                 <p class="text-xl md:text-2xl leading-normal">An intelligent, modular architecture designed to unify billing, policy, order, and dispute management while automating every layer of the SMS business process.</p>
-                <p class="flex items-center gap-2 text-sm font-bold mt-6">Learn more about the Intercom Platform 
+                <p class="w-full flex items-center gap-2 text-nowrap text-secondary text-sm font-bold mt-6 uppercase">Learn more about the Intercom Platform 
                     <Icon name="line-md:arrow-right" class="text-lg" />
                 </p>
             </div>
             <NuxtImg src="images/easy-to-use-platform.png" class="md:w-4/5 mx-auto mt-24 w-full" loading="lazy" alt="Single, Powerful, Easy-to-use platform" width="2090" height="1398" />
 
-            <div class="grid md:grid-cols-3 md:justify-center md:items-start gap-8 md:gap-24 mt-32">
-                <div class="flex  gap-4">
-                    <Icon name="material-symbols:check-circle-rounded" class="flex-shrink-0 text-3xl" />
-                    <p>Seamless integration for SMS, MMS, and OTT channels.</p>
-                </div>
-                 <div class="flex gap-4">
-                    <Icon name="material-symbols:check-circle-rounded" class="flex-shrink-0 text-3xl" />
-                    <p>Built-in safeguards against grey routes, and unauthorized traffic.</p>
-                </div>
-                 <div class="flex gap-4">
-                    <Icon name="material-symbols:check-circle-rounded" class="flex-shrink-0 text-3xl" />
-                    <p>See all your data in one place.</p>
-                </div>
+            <div class="flex flex-col gap-8 mt-12">
+                <h3 class="text-3xl md:text-5xl font-bold">Unifying Routing, Billing, and Intelligence</h3>
+                <p class="text-xl md:text-2xl leading-normal">An architecture optimized for real-time data flow, compliance, and intelligent routing decisions.</p>
             </div>
-
-            <div class="grid md:grid-cols-2 gap-8 mt-12">
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 rounded-xl bg-[#223140]">
-                    <h2 class="text-2xl text-balance font-bold">Security</h2>
-                    <p class="text-base">Robust Security Infrastructure featuring Two-Factor Authentication, IP Whitelisting, Role-Based Controls, and Encrypted Data.</p>
-                    <NuxtImg src="images/security.png" class="mt-auto w-full" loading="lazy" alt="Security" width="1146" height="575" />
+            <div class="grid lg:grid-cols-3 gap-8 mt-12">
+                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
+                    <h2 class="text-2xl text-balance font-bold">Secure Access Management</h2>
+                    <ul class="list-disc px-4 text-[#FFFFFF99]">
+                        <li>Two Factor Authentication</li>
+                        <li>Whitelist Specific IPs</li>
+                        <li>Authentication based on Role</li>
+                        <li>Access Control based on Role</li>
+                        <li>Enable/Disable Users</li>
+                        <li>Encrypted Data</li>
+                        <li>TSL/SSL Certified SMPP Server</li>
+                        <li>Wildcard SSL/TLS Certificate Support</li>
+                        <li>Event Logs</li>
+                        <li>Spam Protection</li>
+                        <li>Last Login IP Details</li>
+                    </ul>
                 </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 rounded-xl bg-[#223140]">
-                    <h2 class="text-2xl text-balance font-bold">Business Advantage</h2>
-                    <p class="text-base">All-in-One Wholesale & Retail SMS Platform with Full Operator, Client, and Vendor Management.”</p>
-                    <NuxtImg src="images/business-advantage.png" class="mt-auto w-full" loading="lazy" alt="Business Advantage" width="930" height="582" />
+                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
+                    <h2 class="text-2xl text-balance font-bold">Secure Access Management</h2>
+                    <ul class="list-disc px-4 text-[#FFFFFF99]">
+                        <li>Two Factor Authentication</li>
+                        <li>Whitelist Specific IPs</li>
+                        <li>Authentication based on Role</li>
+                        <li>Access Control based on Role</li>
+                        <li>Enable/Disable Users</li>
+                        <li>Encrypted Data</li>
+                        <li>TSL/SSL Certified SMPP Server</li>
+                        <li>Wildcard SSL/TLS Certificate Support</li>
+                        <li>Event Logs</li>
+                        <li>Spam Protection</li>
+                        <li>Last Login IP Details</li>
+                    </ul>
                 </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 rounded-xl bg-[#223140]">
-                    <h2 class="text-2xl text-balance font-bold">High-Throughput Messaging</h2>
-                    <p class="text-base">High-Throughput Messaging allows you to create new routes, manage existing ones easily, apply different actions to routes, and have the opportunity to SubSend and receive millions of SMS messages per second with carrier-grade reliability.</p>
-                    <NuxtImg src="images/high-throughput-messaging.png" class="mt-auto w-full" loading="lazy" alt="High-Throughput Messaging" width="830" height="492" />
-
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 pb-0 md:pb-0 rounded-xl bg-[#223140]">
+                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
                     <h2 class="text-2xl text-balance font-bold">Billing and Routing</h2>
-                    <p class="text-base">Understand and improve the performance of your bots and team with flexible and customizable reports.</p>
-                    <NuxtImg src="images/billing-and-routing.png" class="mt-auto w-full" loading="lazy" alt="Billing and Routing" width="821" height="492" />
+                    <ul class="list-disc px-4 text-[#FFFFFF99]">
+                        <li>Rates Management</li>
+                        <li>Least Cost Routes & Least Cost Vendors</li>
+                        <li>Dynamic Import Cost</li>
+                        <li>Multi-Currency</li>
+                        <li>Automated Invoices</li>
+                        <li>Deals & Commitments</li>
+                        <li>Targets</li>
+                        <li>Live Traffic</li>
+                        <li>Route by Destination</li>
+                        <li>Service Provider Route</li>
+                        <li>Gateway Monitor</li>
+                        <li>Special Filter Routes</li>
+                    </ul>
                 </div>
             </div>
 
+            <div class="flex flex-col gap-8 mt-12">
+                <h3 class="text-3xl md:text-5xl font-bold">What Makes Monty Hub the Best?</h3>
+                <p class="text-xl md:text-2xl leading-normal">Engineered to perform. Designed to last. Trusted to deliver.</p>
+            </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mt-12">
-                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl bg-[#223140]">
-                    <NuxtImg src="images/99-guaranteed-uptime.svg" loading="lazy" alt="99% Guaranteed Uptime" width="56" height="56" />
+                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
+                    <NuxtImg src="images/99-guaranteed-uptime.svg" alt="99% Guaranteed Uptime" width="56" height="56" />
                     <h2 class="text-2xl text-balance font-bold">99% Guaranteed Uptime</h2>
-                    <p class="text-base">Ensuring uninterrupted operations and service continuity.</p>
+                    <p class="text-[#FFFFFF99] text-lg">Ensuring uninterrupted operations and service continuity.</p>
                 </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl bg-[#223140]">
-                    <NuxtImg src="images/high-throughput.svg" loading="lazy" alt="High Throughput" width="56" height="56" />
-                    <h2 class="text-2xl text-balance font-bold">High Throughput</h2>
-                    <p class="text-base">Handle massive SMS volumes with carrier-grade speed.</p>
-                </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl bg-[#223140]">
-                    <NuxtImg src="images/backup-servers.svg" loading="lazy" alt="Backup Servers" width="56" height="56" />
+                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
+                    <NuxtImg src="images/backup-servers.svg" alt="Backup Server" width="56" height="56" />
                     <h2 class="text-2xl text-balance font-bold">Backup Servers</h2>
-                    <p class="text-base">Redundant infrastructure for reliability and failover protection.</p>
+                    <p class="text-[#FFFFFF99] text-lg">Redundant infrastructure for reliability and failover protection.</p>
                 </div>
-                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl bg-[#223140]">
-                    <NuxtImg src="images/24-7-support.svg" loading="lazy" alt="24/7 Support" width="56" height="56" />
+                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
+                    <NuxtImg src="images/24-7-support.svg" alt="Backup Server" width="56" height="56" />
                     <h2 class="text-2xl text-balance font-bold">24/7 Support</h2>
-                    <p class="text-base">Expert assistance available anytime, anywhere.</p>
+                    <p class="text-[#FFFFFF99] text-lg">Expert assistance available anytime, anywhere.</p>
+                </div>
+                <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
+                    <NuxtImg src="images/high-throuput.svg" alt="High Throuput" width="56" height="56" />
+                    <h2 class="text-2xl text-balance font-bold">High Throuput</h2>
+                    <p class="text-[#FFFFFF99] text-lg">Handle massive SMS volumes with carrier-grade speed.</p>
                 </div>
             </div>
 
-            <div class="flex max-md:flex-col md:justify-between md:items-center gap-12 my-12 py-12 md:my-24 md:py-24">
-                <p class="text-5xl leading-normal">Certified by <span class="block text-2xl">We work closely with channels, networks, and regulators to deliver secure, leading solutions.</span></p>
-                <div class="flex gap-12">
-                    <NuxtImg src="images/iso.svg" loading="lazy" alt="ISO" width="161" height="161" />
-                    <NuxtImg src="images/gdpr.svg" loading="lazy" alt="GDPR" width="161" height="161" />
+            <div class="flex max-md:flex-col gap-12 my-12 py-12 md:my-24 md:py-24">
+                <div class="md:w-2/3 flex flex-col gap-8">
+                    <h3 class="text-3xl md:text-5xl font-bold">Certified By</h3>
+                    <p class="text-xl md:text-2xl leading-normal">We work closely with channels, networks, and regulators to deliver secure, leading solutions.</p>
+                </div>
+                <div class="md:w-1/3 flex gap-4 lg:gap-12 px-4 lg:px-12 py-12 lg:py-18 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] [background:linear-gradient(180deg,_#202D38_-15.4%,_#122435_57.5%,_#051322_120.47%),radial-gradient(55.88%_52.09%_at_50%_50.46%,_rgba(0,132,255,0.2)_0%,_rgba(4,21,39,0.2)_100%)]">
+                    <NuxtImg src="images/iso.svg" class="w-full md:w-[160px]" loading="lazy" alt="ISO" width="161" height="161" />
+                    <NuxtImg src="images/gdpr.svg" class="w-full md:w-[160px]" loading="lazy" alt="GDPR" width="161" height="161" />
                 </div>
             </div>
         </div>
         <div class="absolute bottom-0 left-0 w-full">
             <NuxtImg src="images/semi-circle.svg" class="mt-12 w-full" loading="lazy" alt="Semi Circle Shape" width="1440" height="87" />
-        </div>
-    </section>
-
-    <section class="my-12 py-12">
-        <div class="flex flex-col justify-center items-center gap-8 md:w-2/3 mx-auto text-center">
-            <h2 class="max-md:text-3xl md:text-7xl text-balance">Combine automation and human support today</h2>
-            <div class="flex justify-center items-center gap-4">
-                <button class="flex items-center font-bold gap-2 py-4 px-6 min-w-[120px] bg-primary border-2 border-primary text-sm text-white rounded-full select-none transition-all duration-300 ease-in-out">Start Free Trial
-                    <Icon name="line-md:arrow-right" class="text-lg" />
-                </button>
-                <button class="flex items-center font-bold gap-2 py-4 px-6 min-w-[120px] bg-transparent border-2 border-primary text-sm text-primary rounded-full select-none transition-all duration-300 ease-in-out">View demo
-                    <Icon name="line-md:arrow-right" class="text-lg" />
-                </button>
-            </div>
         </div>
     </section>
 </template>

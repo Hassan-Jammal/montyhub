@@ -11,7 +11,7 @@ export default defineNuxtConfig({
 			titleTemplate: "%sMontyhub",
 			htmlAttrs: {
 				lang: "en",
-			},
+			}, 
 			// link: [
 			// 	{
 			// 		rel: "icon",
@@ -72,7 +72,7 @@ export default defineNuxtConfig({
 			{ name: 'Inter', weights: ['400 900'] }
 		]
 	},
-	modules: [
+	modules: [ 
 		'@nuxt/fonts',
 		'@nuxt/icon',
 		'@nuxt/image',
