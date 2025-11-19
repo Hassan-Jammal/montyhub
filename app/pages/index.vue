@@ -8,25 +8,25 @@
                     <button class="flex items-center font-bold gap-2 py-4 px-6 md:px-10 min-w-[120px] text-nowrap bg-secondary hover:bg-transparent border-2 border-secondary hover:border-white text-sm hover:text-white rounded-md select-none transition-all duration-300 ease-in-out">Contact us
                         <Icon name="line-md:arrow-right" class="text-lg" />
                     </button>
-                    <button class="flex items-center font-bold gap-2 py-4 px-6 md:px-10 min-w-[120px] text-nowrap bg-transparent hover:bg-secondary border-2 border-white hover:border-secondary text-sm text-white hover:text-black rounded-md select-none transition-all duration-300 ease-in-out">View demo
+                    <!-- <button class="flex items-center font-bold gap-2 py-4 px-6 md:px-10 min-w-[120px] text-nowrap bg-transparent hover:bg-secondary border-2 border-white hover:border-secondary text-sm text-white hover:text-black rounded-md select-none transition-all duration-300 ease-in-out">View demo
                         <Icon name="line-md:arrow-right" class="text-lg" />
-                    </button>
+                    </button> -->
                 </div>
             </div>
         </div>
         <NuxtImg src="images/homepage-banner.png" class="-translate-y-16 w-full" loading="lazy" alt="Homepage Banner" width="2551" height="1337" />
     </section>
 
-    <section class="relative pt-6 pb-32 md:pb-72 bg-[#041527]">
-        <div class="marquee overflow-hidden">
+    <section class="relative pt-6 pb-32 md:pb-32 bg-[#041527]">
+        <!-- <div class="marquee overflow-hidden">
             <div class="wrapper grid grid-flow-col auto-cols-[8rem] lg:auto-cols-[20rem] justify-items-center items-center mt-10 animate-[marquee_20s_linear_infinite] lg:animate-[marqueelg_20s_linear_infinite]">
                 <template v-for="(marquee, index) in duplicatedMarqueeList" :key="index">
-                    <!-- <a :href="marquee.link" target="_blank"> -->
+                    <a :href="marquee.link" target="_blank">
                         <NuxtImg class="marquee-item max-lg:w-2/3 " :src="`images/${marquee.image}.svg`" :alt="marquee.alt" :width="marquee.width" :height="marquee.height" />
-                    <!-- </a> -->
+                    </a>
                 </template>
             </div>
-        </div>
+        </div> -->
         <div class="absolute bottom-0 left-0 w-full -mt-1">
             <NuxtImg src="images/semi-circle.svg" class="mt-12 w-full" loading="lazy" alt="Semi Circle Shape" width="1440" height="87" />
         </div>
@@ -152,7 +152,7 @@
                 <h2 class="w-max mx-auto py-2 px-6 rounded-full bg-[linear-gradient(114deg,rgba(196,224,253,1)_0%,rgba(202,240,248,1)_100%)] text-base text-[#423200] font-bold">ARCHITECTURE</h2>
                 <h3 class="text-3xl md:text-5xl font-bold text-balance">A single, powerful, easy-to-use platform</h3>
                 <p class="text-xl md:text-2xl leading-normal">An intelligent, modular architecture designed to unify billing, policy, order, and dispute management while automating every layer of the SMS business process.</p>
-                <p class="w-full flex items-center gap-2 text-nowrap text-secondary text-sm font-bold mt-6 uppercase">Learn more about the Intercom Platform 
+                <p class="w-full flex justify-center items-center gap-2 text-nowrap text-secondary text-sm font-bold mt-6 uppercase">Learn more about the Intercom Platform 
                     <Icon name="line-md:arrow-right" class="text-lg" />
                 </p>
             </div>
@@ -180,19 +180,20 @@
                     </ul>
                 </div>
                 <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
-                    <h2 class="text-2xl text-balance font-bold">Secure Access Management</h2>
+                    <h2 class="text-2xl text-balance font-bold">Business Advantage</h2>
                     <ul class="list-disc px-4 text-[#FFFFFF99]">
-                        <li>Two Factor Authentication</li>
-                        <li>Whitelist Specific IPs</li>
-                        <li>Authentication based on Role</li>
-                        <li>Access Control based on Role</li>
-                        <li>Enable/Disable Users</li>
-                        <li>Encrypted Data</li>
-                        <li>TSL/SSL Certified SMPP Server</li>
-                        <li>Wildcard SSL/TLS Certificate Support</li>
-                        <li>Event Logs</li>
-                        <li>Spam Protection</li>
-                        <li>Last Login IP Details</li>
+                        <li>Wholesale & Retail SMS Platform</li>
+                        <li>Multiple Companies support</li>
+                        <li>MO/MT model for A2P or P2P SMS</li>
+                        <li>Manage entities for Clients & Vendors</li>
+                        <li>Gateway Applications</li>
+                        <li>Operators support</li>
+                        <li>MCC/MNC support</li>
+                        <li>Prefixes & Aliases support</li>
+                        <li>HLR & MNP Management</li>
+                        <li>Monitor any deleted entity by any userol</li>
+                        <li>Broadcast Email Tool</li>
+                        <li>Reporting</li>
                     </ul>
                 </div>
                 <div class="flex flex-col gap-4 p-4 md:p-8 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] bg-[#122435]">
@@ -247,8 +248,8 @@
                     <p class="text-xl md:text-2xl leading-normal">We work closely with channels, networks, and regulators to deliver secure, leading solutions.</p>
                 </div>
                 <div class="md:w-1/3 flex gap-4 lg:gap-12 px-4 lg:px-12 py-12 lg:py-18 rounded-xl shadow-[0_0_0_4px_#242c40cc,0_0_0_3px_#1F2229CC,0_0_0_1px_#3D414980] [background:linear-gradient(180deg,_#202D38_-15.4%,_#122435_57.5%,_#051322_120.47%),radial-gradient(55.88%_52.09%_at_50%_50.46%,_rgba(0,132,255,0.2)_0%,_rgba(4,21,39,0.2)_100%)]">
-                    <NuxtImg src="images/iso.svg" class="w-full md:w-[160px]" loading="lazy" alt="ISO" width="161" height="161" />
-                    <NuxtImg src="images/gdpr.svg" class="w-full md:w-[160px]" loading="lazy" alt="GDPR" width="161" height="161" />
+                    <NuxtImg src="images/iso.svg" class="w-full" loading="lazy" alt="ISO" width="161" height="161" />
+                    <NuxtImg src="images/gdpr.svg" class="w-full" loading="lazy" alt="GDPR" width="161" height="161" />
                 </div>
             </div>
         </div>
